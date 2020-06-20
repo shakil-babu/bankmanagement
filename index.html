@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shakil's Bank</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/w3.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <!--  -->
+
+    <div class="row">
+      <div class="col-12">
+        <!-- login-btn -->
+        <div class="desinLogin">
+          Login
+        </div>
+      </div>
+    </div>
+
+    <!-- login-area -->
+
+    <div class="login-area">
+      <h2 class="text-center">Welcome to Shakil's Bank</h2>
+      <form action="" class="form">
+        <div class="submit-area">
+          <p style="font-size: 20px; margin: 0;  padding-bottom: 5px;">
+            Login
+          </p>
+          <input
+            type="email"
+            placeholder="Email"
+            id="emailInput"
+            class="form-control"
+            required
+          />
+
+          <br />
+          <input
+            type="password"
+            placeholder="Password"
+            id="passInput"
+            class="form-control"
+            required
+          />
+          <div class="mt-3 showcode text-danger"></div>
+          <br />
+          <button class="btn btn-success" id="enterBtn">Enter</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- for show the calculation part -->
+    <div class="full-area">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="depositBox">
+            <h4>Deposit</h4>
+            <h2>$ <span class="current-deposite">00</span></h2>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="withdrawBox">
+            <h4>Withdraw</h4>
+            <h2>$ <span class="current-withdraw">00</span></h2>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="balanceBox">
+            <h4>Balance</h4>
+            <h2>$ <span class="current-balance">500</span></h2>
+          </div>
+        </div>
+      </div>
+
+      <br /><br />
+
+      <div class="row">
+        <div class="col-md-6">
+          <div id="depositeBox">
+            <h4>Deposit</h4>
+            <input id="depositINput" class="form-control" type="text" placeholder="$ amount you want to deposit">
+            <button id="depositBtn" class="btn mt-3 btn-success">Deposit</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="withdrawBox">
+            <h4>Withdraw</h4>
+            <input id="withdrawINput" class="form-control"  type="text" placeholder="$ amount you want to withdraw">
+            <button id="withdrawBtn" class="btn mt-3 btn-success">Withdraw</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+    <!-- ================================ -->
+    <script src="js/core.js"></script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- ================================================================== -->
+  </body>
+</html>

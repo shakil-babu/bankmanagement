@@ -1,0 +1,88 @@
+body{
+  padding: 100px;
+}
+
+.desinLogin{
+  background: orange;
+  padding:20px;
+  text-align: center;
+  font-size: 20px;
+  color:#fff;
+  width: 200px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: -1px 7px 9px -4px black;
+  margin:0px auto;
+  margin-top: 15%;
+  position: relative;
+  overflow: hidden;
+  transition: .5s;
+  
+}
+
+
+.desinLogin:hover{
+  background: #ddd;
+  border-right:2px solid orange;
+  border-left:2px solid orange;
+  color: black;
+  transition: .5s;
+}
+
+
+/* for login area */
+.submit-area{
+  margin-top: 40px;
+  padding:40px;
+  box-shadow: 5px 5px 10px gray;
+  
+}
+
+h2{
+  font-weight: 600;
+
+}
+
+/* display none */
+.login-area{
+  display: none;
+}
+
+
+/* for full area */
+
+.full-area{
+  display: none;
+}
+
+.depositBox{
+  background:royalblue;
+  padding: 20px;
+  color: #fff;
+  border-radius: 5px;
+  
+}
+.withdrawBox{
+  background:orange;
+  padding: 20px;
+  color: #fff;
+  border-radius: 5px;
+
+}
+.balanceBox{
+  background:orangered;
+  padding: 20px;
+  color: #fff;
+  border-radius: 5px;
+
+}
+#depositeBox{
+  padding:40px;
+  box-shadow: 5px 5px 10px gray;
+}
+#withdrawBox{
+  padding:40px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+
